@@ -72,7 +72,7 @@ img {
   letter-spacing: -0.04em;
 }
 .site-logo {
-  width: 260px;
+  width: 220px;
   height: auto;
   display: block;
 }
@@ -775,7 +775,7 @@ h3 {
 }
 @media (max-width: 760px) {
   .site-logo {
-    width: 190px;
+    width: 165px;
   }
 }
 
