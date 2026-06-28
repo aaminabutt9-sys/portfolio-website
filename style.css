@@ -158,8 +158,14 @@ h1 {
   font-size: clamp(2.8rem, 7vw, 6.6rem);
 }
 
-h2 {
-  font-size: clamp(2rem, 4vw, 4rem);
+h1 {
+  max-width: 900px;
+  font-size: clamp(2.4rem, 5vw, 5.4rem);
+}
+
+.hero-title span {
+  display: block;
+  white-space: nowrap;
 }
 
 h3 {
@@ -778,4 +784,12 @@ h3 {
     width: 180px;
   }
 }
+@media (max-width: 760px) {
+  .hero-title span {
+    white-space: normal;
+  }
 
+  h1 {
+    font-size: clamp(2.4rem, 12vw, 4rem);
+  }
+}
