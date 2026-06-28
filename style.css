@@ -57,7 +57,7 @@ img {
 }
 
 .nav {
-  min-height: 76px;
+  min-height: 68px;
   display: flex;
   align-items: center;
   justify-content: space-between;
