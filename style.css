@@ -12,7 +12,7 @@
   --radius-large: 30px;
   --radius-medium: 22px;
   --radius-small: 14px;
-  --container: 1160px;
+  --container: 1050px;
 }
 
 * {
@@ -71,6 +71,11 @@ img {
   gap: 10px;
   font-weight: 800;
   letter-spacing: -0.04em;
+}
+.site-logo{
+    width:220px;
+    height:auto;
+    display:block;
 }
 
 .logo-mark {
