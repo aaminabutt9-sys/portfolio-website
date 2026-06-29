@@ -269,16 +269,19 @@ h3 {
 }
 
 .hero-visual {
-  position: relative;
-  width: 100%;
-  min-height: 520px;
-  border-radius: 44px;
-  background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.78), rgba(255, 248, 240, 0.82)),
-    linear-gradient(135deg, #222, #d97745);
-  border: 1px solid rgba(17, 17, 17, 0.08);
-  box-shadow: var(--shadow);
-  overflow: hidden;
+    position: relative;
+    width: 100%;
+    min-height: 520px;
+    border-radius: 44px;
+    overflow: hidden;
+
+    background:
+        radial-gradient(circle at 20% 20%, rgba(217,119,69,.18), transparent 45%),
+        radial-gradient(circle at 80% 75%, rgba(244,216,196,.55), transparent 50%),
+        linear-gradient(135deg, #fffdfb 0%, #f7f3ee 50%, #f3e5d9 100%);
+
+    border: none;
+    box-shadow: none;
 }
 
 .visual-top,
