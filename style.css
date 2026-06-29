@@ -180,11 +180,12 @@ h3 {
   line-height: 1.02;
 }
 
-h1 {
-    max-width: 1000px;
-    width: 100%;
-    font-size: clamp(2.8rem, 7vw, 6.6rem);
-    white-space: nowrap;
+h1{
+    max-width:980px;
+    margin:0 auto;
+    font-size:clamp(3.4rem,8vw,7rem);
+    line-height:.95;
+    letter-spacing:-0.06em;
 }
 
 h2 {
