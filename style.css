@@ -1169,4 +1169,12 @@ display:none!important;
     font-size:.95rem;
 }
 
+} 
+/* Desktop hero heading only */
+@media (min-width: 992px) {
+    .hero-content h1 {
+        font-size: 7rem;
+        line-height: 0.9;
+        max-width: 1200px;
+    }
 }
