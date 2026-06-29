@@ -181,7 +181,7 @@ h3 {
 }
 
 h1 {
-    max-width: 1400px;
+    max-width: 1000px;
     width: 100%;
     font-size: clamp(2.8rem, 7vw, 6.6rem);
     white-space: nowrap;
